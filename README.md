@@ -1,2 +1,3 @@
-# awesome-python3-webapp
-awesome-python3-webapp
+# python3-study
+
+Some learning files with python3
