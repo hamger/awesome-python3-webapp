@@ -3,6 +3,7 @@
 test.db
 test.txt
 sina.html
+output.html
 
 # C extensions
 *.so
