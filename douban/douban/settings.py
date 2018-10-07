@@ -44,7 +44,7 @@ ROBOTSTXT_OBEY = True
 #   'Accept-Language': 'en',
 #}
 
-# Enable or disable spider middlewares
+# Enable or disable spider middlewares 开启中间件，数字越小代表优先级越高，优先级不能相同
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
 #    'douban.middlewares.DoubanSpiderMiddleware': 543,
@@ -62,7 +62,7 @@ ROBOTSTXT_OBEY = True
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 #}
 
-# Configure item pipelines
+# Configure item pipelines 开启后才能保存到数据库
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
 #    'douban.pipelines.DoubanPipeline': 300,

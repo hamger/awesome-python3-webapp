@@ -2,6 +2,7 @@
 import scrapy
 from douban.items import DoubanItem
 
+# spider 目录下不能存在相同爬虫名称的文件
 class DbSpider(scrapy.Spider):
     name = 'db'
     # 允许的域名
